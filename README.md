@@ -53,3 +53,45 @@ This repository contains some algorithms of Data and File structures(DFS),
             -> Evaluation of Postfix expression
 
             -> Evaluation of Prefix expression
+
+      II) Queue
+
+         -> Queue (Array and Linked list Implementation)
+
+         -> Circular Queue (Array and Linked list Implementation)
+
+         -> Double ended Queue (Linked list Implementation)
+
+         -> Queue (Stack Implementation)
+
+         Operations
+
+           -> Queue copy reverse
+
+           -> Queue Search
+
+      III) Linked List
+
+         -> Singlely Linked List
+
+         -> Circular Singlely Linked List
+
+         -> Doublely Linked List
+
+         -> Circular Doublely Linked List
+
+         Operations
+
+           -> Reverse the list
+
+           -> Delete Duplicates from sorted list
+
+           -> Delete Duplicates from un-sorted list
+
+           -> Delete the maximum element from list
+
+           -> Find the middle element in list
+
+           -> Find the middle element in list(v2)
+
+           -> Sort the list
