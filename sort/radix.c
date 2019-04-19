@@ -105,9 +105,10 @@ void radix_d(int d, int array[], int n)
     return ;
 }
 
-void digiti(int array[], int tmparr2[], int n, int dig)
+void digiti(int array[], int tmparr2[], int n, int d)
 {
    int        i, j, val;
+   int 	      dig = d;
 
    for (i = 0; i < n; i++)
    {

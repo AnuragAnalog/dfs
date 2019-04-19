@@ -95,3 +95,17 @@ This repository contains some algorithms of Data and File structures(DFS),
            -> Find the middle element in list(v2)
 
            -> Sort the list
+
+      IV) Hashing
+
+         -> Separate chaining
+
+         -> Open Addressing (Linear & Quadratic)
+
+   --> Non-Linear DS
+
+      V) Trees
+
+         -> Binary search Tree(BST)
+
+         -> Binary Heap(Max)
