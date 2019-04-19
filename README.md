@@ -38,6 +38,8 @@ This repository contains some algorithms of Data and File structures(DFS),
 
          -> Linked Stack (Linked List Implementation)
 
+         -> Stack (Queue Implementation)
+
          Applications
 
             -> Reversing of a string
