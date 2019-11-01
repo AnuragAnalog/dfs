@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 /********* DEFINED CONSTANTS *********/
 #define MAX          50
@@ -83,6 +84,22 @@ void display(Queue *q)
          printf("%d, ", q->items[i]);
       }
       printf("\n");
+   }
+
+   return ;
+}
+
+void shuffle_the_q(Queue *q)
+{
+   int        i, j;
+   time_t     seed;
+
+   srand((unsigned) seed);
+
+   for (i = q->rear; i > q->front; i--)
+   {
+      j = rand() % i;
+      swap(&q->items[i], &q->items[j]);
    }
 
    return ;
