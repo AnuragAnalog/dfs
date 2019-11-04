@@ -1,4 +1,29 @@
-# Implementation of stack datastructure in C Language
-1) Using LinkedList Datastructure
-2) Using Array Datastructure
-3) Using Queue Datastructure
+# Stack Data-structure
+
+Languages Used: C
+
+## Stack
+
+**Implemented using**
+
+* Array
+
+* Linked List
+
+* Queue
+
+**Applications**
+
+* Checking for Balanced Brackets
+
+* Palindromes
+
+* Infix-to-Prefix Notation
+
+* Infix-to-Postfix Notation
+
+* String Reversal
+
+* Postfix Expression Evaluation
+
+* Prefix Expression Evaluation
