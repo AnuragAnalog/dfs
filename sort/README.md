@@ -58,17 +58,21 @@ Space Complexity:- O(n + r)
 
 | Best | Average | Worst |
 | --- | --- | --- |
-| Ω(n) | Θ(n^2) | O(n^2)|
+| Ω(w * n) | Θ(w * n) | O(w * n)|
 
-Space Complexity:- O(1)
+Space Complexity:- O(w * n)
+
+> w is the number of bits to store each key
 
 **Bucket Sort**
 
 | Best | Average | Worst |
 | --- | --- | --- |
-| Ω(n) | Θ(n^2) | O(n^2)|
+| Ω(n) | Θ(n+((n^2)/k)+k) | O(n^2)|
 
-Space Complexity:- O(1)
+Space Complexity:- O(n * k)
+
+> k is the number of buckets
 
 ## Least popular
 
@@ -84,9 +88,9 @@ Space Complexity:- O(1)
 
 | Best | Average | Worst |
 | --- | --- | --- |
-| Ω(n) | Θ(n^2) | O(n^2)|
+| Ω(nlog(n)) | Θ(nlog(n)) | O(nlog(n))|
 
-Space Complexity:- O(1)
+Space Complexity:- O(n)
 
 **Bogo Sort**
 
