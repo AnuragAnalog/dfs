@@ -1,6 +1,6 @@
 # Linked List
 
-**Structure**
+## Structure
 
 * Data-Field
 
@@ -9,9 +9,14 @@
 A node in a linked list
 
 +---------------------------+----------------------------------+
+
 | Data Field                | Pointer Field                    |
+
 | (can be int, char, etc.,) | (Stores the address of next node)|
+
 +---------------------------+----------------------------------+
+
+## Pros and Cons
 
 **Pros**
 
@@ -25,7 +30,7 @@ A node in a linked list
 
 * Slow and Time consuming Operations (every thing is in O(n))
 
-**Types**
+## Types
 
 * Single Linked List
 
@@ -35,7 +40,7 @@ A node in a linked list
 
 * Double Circular Linked List
 
-**Operations**
+## Operations
 
 * Reverse a linked list
 
