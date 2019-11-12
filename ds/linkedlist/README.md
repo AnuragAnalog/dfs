@@ -10,9 +10,9 @@ A node in a linked list
 
 +---------------------------+----------------------------------+
 
-|&nbsp;Data Field&emsp;&emsp;&emsp;&emsp;|&nbsp;Pointer Field&emsp;&emsp;&emsp;&emsp;&emsp;|
+|&nbsp;Data Field&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;|&nbsp;Pointer Field&emsp;&emsp;&emsp;&emsp;&emsp;|
 
-| (can be int, char, etc.,) | (Stores the address of next node)|
+|&nbsp;(can be int, char, etc.,)&nbsp;|&nbsp;(Stores the address of next node)|
 
 +---------------------------+----------------------------------+
 
