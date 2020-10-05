@@ -20,10 +20,12 @@ array = list()
 for i in range(n):
     array.append(int(input("Enter the integer: ")))
 
-opt = int(input("Select an option:\n1) Ascending order\n2) Descending order\n"))
+asc = int(input("Select an option:\n1) Ascending order\n2) Descending order\n"))
 
-if opt == 1:
+if asc == 1:
     bubble_ascend(n, array)
-else:
+elif asc == 2:
     bubble_descend(n, array)
+else:
+    print("Invalid Option")
 print("Sorted list: \n", array)
