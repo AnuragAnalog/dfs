@@ -3,12 +3,12 @@
 import numpy as np
 from itertools import permutations
 
-def is_sorted(n, array, bit):
-    if bit == 1:
+def is_sorted(n, array, asc=True):
+    if asc:
         for i in range(n-1):
             if array[i] > array[i+1]:
                 return False
-    elif bit == 2:
+    else:
         for i in range(n-1):
             if array[i] < array[i+1]:
                 return False
@@ -18,7 +18,7 @@ def bogo_ascend(n, array):
     permut = permutations([i for i in range(n)], n)
     for seq in permut:
         tmp = np.array(array)
-        if is_sorted(n, tmp[list(seq)], 1):
+        if is_sorted(n, tmp[list(seq)], asc=True):
             return tmp[list(seq)]
     return
 
@@ -26,7 +26,7 @@ def bogo_descend(n, array):
     permut = permutations([i for i in range(n)], n)
     for seq in permut:
         tmp = np.array(array)
-        if is_sorted(n, tmp[list(seq)], 2):
+        if is_sorted(n, tmp[list(seq)], asc=False):
             return tmp[list(seq)]
     return
 
