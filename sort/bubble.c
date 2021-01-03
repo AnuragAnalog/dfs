@@ -54,6 +54,7 @@ int main()
    exit(0);
 }
 
+
 /********* FUNCTION DEFINITION *********/
 void bubble_ascend(int n, int array[])
 {
